@@ -1,0 +1,57 @@
+.choice {
+      padding: 40px;
+}
+.choice-sport_container {
+      padding-top: 10px;
+
+.choice-sport2 {
+      width: 1040px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     }
+.choice-sport_list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      }
+.choice-sport_item + .choice-sport_item{
+      margin-left: 40px;
+      }
+
+      .choice-sport_desc{
+          color: grey;
+          padding-top: 30px;
+      }
+.choice-sport_span {
+       display: inline-block;
+       width: 5px;
+       height: 5px;
+      margin-top: 20px;
+      background-color: rgb(155, 151, 151);
+    }
+
+.choice-link{
+        text-decoration: none;
+        color:crimson;
+        font-family: 'Shippori Antique B1', sans-serif;
+        font-weight: bold;
+     }
+.choice-link:before {
+   width: 200px;
+   height: 5px;
+   background-color: crimson ;
+}
+   }
+
+.nav__item--form{
+   border: none;
+
+}
+.nav__input{
+   border: transparent;
+   border-bottom: 1px solid black;
+}
+.nav__input:focus{
+   outline: 0;
+}

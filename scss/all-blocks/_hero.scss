@@ -1,0 +1,31 @@
+.hero {
+     border-bottom: 1px solid grey;
+         &__container {
+        padding-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        background-image: url("../images/watches.jpg");
+        background-repeat: no-repeat;
+        background-size: 640px 540px;
+        background-position:  left  720px center;
+}
+    &__left {
+        width: 500px;
+ }
+
+    &__heading {
+        font-size: 50px;
+  }
+}
+.hero_bottom {
+       display: flex;
+    .hero_bottom-span {
+        width: 10px;
+        height: 200px;
+        margin-right: 20px;
+        background-color: grey;
+  }
+  .hero_desc{
+        color: grey;
+  }
+}
