@@ -1,0 +1,30 @@
+.sport-band{
+    border-bottom: 1px solid grey;
+    background-image: url("../../images/preview.jpg");
+    background-size: 320px 560px;
+    background-repeat: no-repeat;
+    background-position:  left  750px center;
+
+
+
+ &__container{
+    padding-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+ }
+ &__left {
+     width: 500px;
+ }
+ &__heading {
+    font-size: 45px;
+ }
+ &_bottom{
+    display: flex;
+}
+&__bottom-span {
+    width: 8px;
+    height: 130px;
+    margin-right: 20px;
+    background-color: grey;
+ }
+}

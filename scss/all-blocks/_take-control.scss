@@ -1,0 +1,31 @@
+.take-control {
+      padding-top: 60px 40px;
+      background-image: url("../images/runners.jpg");
+      background-repeat: no-repeat;
+      background-size: 1420px 850px;
+      background-position: center;
+&__container {
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+
+    &__right{
+    padding-top: 50px;
+    width: 470px;
+}
+&__heading{
+    font-size: 42px;
+    }
+&__bottom{
+    display: flex;
+}
+&__span {
+    width: 8px;
+    height: 135px;
+    background-color: white;
+    margin-right: 35px;
+    margin-top: 21px;
+  }
+ }
+}

@@ -1,13 +1,15 @@
 .hero {
      border-bottom: 1px solid grey;
-         &__container {
+     background-image: url("../images/watches.jpg");
+     background-repeat: no-repeat;
+     background-size: 640px 520px;
+     background-position:  left  970px center;
+
+     &__container {
         padding-top: 60px;
         display: flex;
         justify-content: flex-start;
-        background-image: url("../images/watches.jpg");
-        background-repeat: no-repeat;
-        background-size: 640px 540px;
-        background-position:  left  720px center;
+
 }
     &__left {
         width: 500px;
@@ -21,7 +23,7 @@
        display: flex;
     .hero_bottom-span {
         width: 10px;
-        height: 200px;
+        height: 150px;
         margin-right: 20px;
         background-color: grey;
   }
